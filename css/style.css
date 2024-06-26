@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+/*center*/
+
+.center{
+    width: 100%;
+    height: 640px;
+    background-image: url(../Imagens/BR-pt-20240617-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;  
+}
+
+.logo{
+    color: red;
+    font-size: 40px;
+    font-family: tahoma;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 280px;
+    
+}
+
+.botoes{
+    position: absolute;
+    top: 20px;
+    right: 280px;
+}
+
+.botao1{
+    color: white;
+    background-color: rgba(24, 22, 23, 0.5);
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.botao2{
+    color: white;
+    background-color: red;
+    padding: 5px 12px;
+    border: 1px solid red;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.center2{
+    position: absolute;
+    top: 300px;
+    left: 25%;
+    text-align: center;
+    
+}
+
+.texto{
+    color: white;
+    font-family: tahoma;
+}
+
+.texto h1{
+    font-size: 44px;
+    margin: 20px;
+    
+}
+
+.texto span{
+    font-size: 22px;
+}
+
+.texto p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.texto2{
+    margin-top: 30px;
+}
+
+.center2 input{
+    width: 350px;
+    background-color: rgba(24, 22, 23, 0.5);
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 3px;
+    color: white;
+}
+
+.center2 input::placeholder{
+    color: white;
+}
+
+.texto2 a{
+    color: white;
+    background-color: red;
+    padding: 9px 35px 15px 20px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-family: tahoma;
+    font-size: 24px;
+    text-decoration: none;
+}
+ 
+/*center*/
+
+/*faixa*/
+
+.faixa{
+    width: 100%;
+    background-color: rgb(28, 6, 102);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.faixa .p1{
+    font-size: 20px;
+}
+
+.faixa .p2{
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.faixa a{
+    margin-top: 10px;
+    color: gray;
+}
+
+/*faixa*/
+
+/*meio*/
+
+.meio{
+    width: 100%;
+    padding-bottom: 70px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-bottom: 5px solid gray;
+}
+
+.meio1{
+    width: 500px;
+    display: inline-block;
+    margin-top: 150px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.meio1 h2{
+    font-family: tahoma;
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+.meio1 p{
+    font-family: tahoma;
+    font-size: 24px;
+}
+
+.meio2{
+    display: inline-block;
+}
+
+.meio2 img{
+    width: 580px;
+}
+
+/*meio*/
+
+/*segundo*/
+
+.segundo{
+    width: 100%;
+    padding: 50px 0 80px 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-bottom: 5px solid gray;
+}
+
+.segundo1{
+    width: 580px;
+    display: inline-block;
+}
+
+.segundo1 img{
+    width: 550px;
+}
+
+.segundo2{
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 150px;
+}
+
+.segundo2 h2{
+    font-family: tahoma;
+    font-size: 44px;
+    margin-bottom: 15px;
+}   
+
+.segundo2 p{
+    font-family: tahoma;
+    font-size: 24px;
+}
+
+/*segundo*/
+
+/*termeio*/
+
+.termeio{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-bottom: 5px solid gray;
+}
+
+.termeio1{
+    width: 500px;
+    display: inline-block;
+    margin-top: 150px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.termeio1 h2{
+    font-family: tahoma;
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+.termeio1 p{
+    font-family: tahoma;
+    font-size: 24px;
+}
+
+.termeio2{
+    display: inline-block;
+}
+
+/*termeio*/
+
+/*quarmeio*/
+
+.quarmeio{
+    width: 100%;
+    padding-bottom: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-bottom: 5px solid gray;
+}
+
+.quarmeio1{
+    width: 580px;
+    display: inline-block;
+}
+
+.quarmeio1 > img{
+    width: 530px;
+    height: 330px;
+}
+
+.quaimg{
+    width: 400px;
+    height: 100%;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.quatexto1{
+    font-family: tahoma;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.quatexto2{
+    color: rgb(74, 74, 247);
+}
+
+.quaimg img{
+    width: 65px;
+}
+
+.quarmeio2{
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 150px;
+}
+
+.quarmeio2 h2{
+    font-family: tahoma;
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+.quarmeio2 p{
+    font-family: tahoma;
+    font-size: 24px;
+}
+
+/*quarmeio*/
+
+/*perguntas*/
+
+.perguntas{
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: black;
+    text-align: center;
+    border-bottom: 5px solid gray;
+}
+
+.perguntas > h2{
+    color: white;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-family: tahoma;
+    font-size: 45px;
+}
+
+.perguntas1 button{
+    width: 1200px;
+    margin: 10px auto;
+    display: block;
+    text-align: left;
+    padding: 30px 0 30px 20px;
+    font-family: tahoma;
+    font-size: 25px;
+    background-color: rgba(128, 128, 128, 0.319);
+    color: white;
+    border: 1px solid black;
+}
+
+.perguntas1 button:hover{
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+.perguntas > h3{
+    text-align: center;
+    color: white;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    font-family: tahoma;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.perguntas > .botao{
+
+}
+
+.perguntas > .botao input{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.perguntas > .botao input::placeholder{
+    color: rgb(153, 151, 151);
+    font-size: 15px;
+}
+
+.perguntas > .botao button{
+    color: white;
+    background-color: red;
+    padding: 9px 35px 15px 20px;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-family: tahoma;
+    font-size: 24px;
+    margin: 0px 5px
+}
+
+/*perguntas*/
+
+/*final*/
+
+.final{
+    width: 100%;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    background-color: black;
+    color: rgb(185, 184, 184);
+}
+
+.final1{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.final a{
+    color: rgb(185, 184, 184);
+}
+
+.link1{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-family: tahoma;
+}
+
+.listas li{
+    width: 300px;
+    display: inline-block;
+    background-color: black;
+    margin-bottom: 15px;
+}
+
+.listas a{
+    color: rgb(185, 184, 184);
+    font-family: tahoma;
+    font-size: 15px;
+}
+
+.finalselect select{
+    color: white;
+    background-color: rgba(24, 22, 23, 0.5);
+    padding: 5px 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.final1 > .ultimo{
+    color: rgb(185, 184, 184);
+    font-family: tahoma;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/*final*/
